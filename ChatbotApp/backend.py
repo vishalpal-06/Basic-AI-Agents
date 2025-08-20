@@ -13,6 +13,7 @@ import sqlite3
 CHAT_HISTORY_FILE = "chat_history.json"
 GOOGLE_API_KEY=os.getenv("GOOGLE_API_KEY")
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
+os.environ["LANGSMITH_PROJECT"] = "ChatbotApp"
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
