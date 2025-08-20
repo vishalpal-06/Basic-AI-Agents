@@ -1,19 +1,35 @@
-langchain_community 
-tiktoken  
-langchainhub 
-chromadb 
-langchain 
-langgraph  
-tavily-python
-python-dotenv
-google-generativeai
+# Core LangChain
+langchain
+langchain_community
+langchainhub
+langgraph
+langgraph-checkpoint-sqlite
+
+# LangChain Integrations
 langchain-google-genai
 langchain-groq
 langchain-nomic
 langchain-text-splitters
 langchain_mistralai
-wikipedia
 langchain_huggingface
-google-search-results
+
+# AI/ML & Vector DB
+chromadb
 faiss-cpu
 sentence_transformers
+tiktoken
+
+# Search & External APIs
+wikipedia
+google-search-results
+tavily-python
+
+# Google AI
+google-generativeai
+
+# Utilities
+python-dotenv
+spacy
+textblob
+emoji
+streamlit
