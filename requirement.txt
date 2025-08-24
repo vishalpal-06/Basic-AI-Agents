@@ -33,3 +33,5 @@ spacy
 textblob
 emoji
 streamlit
+
+duckduckgo-search
